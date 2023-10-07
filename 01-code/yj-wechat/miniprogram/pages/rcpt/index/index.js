@@ -1,4 +1,6 @@
 // pages/rcpt/index/index.js
+
+const app = getApp()
 Page({
 
   /**
@@ -27,6 +29,10 @@ Page({
    */
   onShow() {
 
+    app.globalData.menuInfo = wx.getMenuButtonBoundingClientRect()
+    app.globalData.getSystemInfoSync = wx.getSystemInfoSync()
+
+    console.log("获取右侧胶囊位置", app.globalData.menuInfo, app.globalData.getSystemInfoSync)
   },
 
   /**

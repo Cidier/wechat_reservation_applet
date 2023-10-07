@@ -1,8 +1,10 @@
+
 <!--index.wxml-->
 <view class="container">
-  <view class="mm-row">
-    <view class="title">余江接待</view>
+
+  <view class="mm-title-row">
+    <!-- <view class="title">余江接待</view> -->
   </view>
 
-  
+
 </view>

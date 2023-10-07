@@ -13,7 +13,10 @@ App({
         traceUser: true,
       });
     }
-
     this.globalData = {};
+    // 完整胶囊信息
+    this.globalData.menuInfo = wx.getMenuButtonBoundingClientRect() || {}
+    // 完整系统信息
+    this.globalData.getSystemInfoSync = wx.getSystemInfoSync() || {}
   }
 });
