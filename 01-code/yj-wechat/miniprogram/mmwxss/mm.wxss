@@ -1,0 +1,275 @@
+.mm-row{
+  width: 100%;
+  margin: 8px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mm-col-24{
+  width: 100%;
+  margin: 0.1rem 0;
+}
+.mm-col-12{
+  width: 50%;
+  margin: 0.1rem 0;
+}
+.mm-col-6{
+  width: 25%;
+  margin: 0.1rem 0;
+}
+
+.mm-logo{
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+.mm-logo image{
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 0.2rem solid rgb(64, 199, 233);
+}
+
+.mm-login-content{
+  padding: 1rem 0.2rem;
+}
+.mm-logo-content-title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.mm-logo-content-tags{
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
+.mm-tag{
+  background-color: #ecf5ff;
+  color: #409eff;
+  padding: 3px 3px;
+  border: 1px solid #d9ecff;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.mm-card{
+  width: 95%;
+  margin: 0.4rem auto;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.mm-card-header{
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.mm-card-body{
+  padding: 0.4rem 0.5rem;
+}
+
+.mm-service-menu{
+  width: 33%;
+}
+.mm-service-menu > .mm-service-menu-view{
+  margin: 0.5rem auto;
+  width: 3.6rem;
+}
+.mm-service-menu > .mm-service-menu-view image{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.6rem;
+}
+.mm-service-menu > .mm-service-menu-view view{
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.mm-flex-list{
+  display: flex;
+  margin: 0.4rem 0;
+}
+.mm-container-header{
+  position:fixed;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  padding-top: 3rem;
+  padding-left: 2.3rem;
+  background-color: #eae8eb;
+  z-index: 999;
+}
+.mm-container-header image{
+  width: 2rem; 
+  height: 2.1rem;
+}
+.mm-container-header view{
+  height:2rem;
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.mm-content{
+  margin-top: 5rem;
+  padding-top: 0.4rem;
+  width: 100%;
+  display: flex;
+}
+.mm-content-clear{
+  margin-top: 5rem;
+  padding-top: 0.4rem;
+  width: 100%;
+}
+
+.mm-list{
+  width: 100%;
+  padding: 0.5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.mm-list .mm-list-item{
+  padding: 0.2rem 0.4rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.5rem;
+
+}
+.mm-list-item-header{
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.3rem 0;
+  margin-left: 0.3rem;
+  border-left: 3px solid #409eff;
+  padding-left: 0.3rem;
+}
+.mm-list-item-content{
+  width: auto;
+  margin: 0.3rem 0.3rem 0.5rem 0.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;/*808A87*/
+  display: flex;
+  flex-direction: column;
+}
+/* mm-button不起作用 */
+.mm-button{
+  width: auto;
+  margin: 0px 1rem 0 0;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid rgba(135,105,245, 0.2);
+  background-color: #8769f5;
+  text-align: center;
+}
+.mm-list-item-operation{
+  margin: 0.4rem 0 0 0;
+  display: flex;
+}
+
+
+
+.page {
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: rgba(0, 0, 0, .85);
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: PingFang SC, Helvetica Neue, Hiragino Sans GB, Helvetica, Microsoft YaHei, Arial;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page__hd {
+  padding: 40px;
+}
+
+.page__bd {
+  padding-bottom: 40px;
+}
+
+.page__bd_spacing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page__ft {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.page__title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page__desc {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, .45);
+  text-align: left;
+  font-size: 14px;
+}
+
+.placeholder {
+  background-color: #ebebef;
+  color: #bbb;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sub-title {
+  padding: 30rpx 30rpx 18rpx;
+  font-size: 28rpx;
+  color: rgba(0, 0, 0, .65);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button-sp-area {
+  margin: 20px auto 0;
+  width: 80%;
+  text-align: center;
+}
+
+.btn-area {
+  margin: 1.17647059em 15px 0.3em;
+}
+
+.btn-area button {
+  margin-bottom: 10px;
+}
+
+.btn-area button:last-child {
+  margin-bottom: 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-group {
+  position: relative;
+  z-index: 1010;
+  margin-bottom: 50px;
+}
