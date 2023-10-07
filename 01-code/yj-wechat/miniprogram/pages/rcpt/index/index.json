@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "cloud-tip-modal": "/components/cloudTipModal/index",
+    "wux-cell-group": "../../../lib/cell-group/index",
+    "wux-cell": "../../../lib/cell/index"
+  }
+}
