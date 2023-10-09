@@ -1,3 +1,39 @@
+
+
+.mm-article-title {
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: #943636;
+  font-size: 44rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  margin: 10px auto;
+}
+
+.mm-article-title-small {
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: #943636;
+  font-size: 38rpx;
+  display: flex;
+  margin: 6px auto;
+}
+
+.mm-article-content{
+  width: 100%;
+  /* view总样式 */
+  margin: 2px 1rem;
+
+  /* 文章内容样式 */
+  text-align: left;
+  font-size: 0.7rem;
+  color: #000;
+  line-height: 1.5rem;
+  font-weight: 600;
+  letter-spacing:1.5px;/*字符之间间距*/
+  text-indent: 1.2rem;
+}
+
 .mm-title-row{
   width: 100%;
   margin: 8px auto;
@@ -19,6 +55,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+.mm-card-none{
+  margin: 0px auto;
+}
 .mm-card-6{
   width: 120px;
   height: 120px;
@@ -28,6 +67,27 @@
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+.mm-card-10{
+  width: 180px;
+  height: 180px;
+  margin: 1px auto;
+  padding: 8px 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mm-card-4{
+  width: 75px;
+  height: 75px;
+  margin: 1px auto;
+  padding: 8px 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
 .mm-row{
   width: 100%;
   margin: 6px auto;

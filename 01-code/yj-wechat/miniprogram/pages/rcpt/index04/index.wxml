@@ -1,0 +1,52 @@
+
+<!--index.wxml-->
+<view class="container" style="height: 100%;background-image: url('../../../images/bgi-001.png'); background-size: 450%; background-position: 900px -2px;">
+
+<!-- background-color: rgba(255, 255, 255, 0.5); -->
+<view class="container" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); overflow-y: scroll;">
+<!--  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255,255,255, 0)) #09f; -->
+  <view class="mm-row" style="margin: 0px auto; background: linear-gradient(rgba(255,255,255, 1), rgba(255,255,255, 0)) rgba(255, 255, 255, 0);">
+    <view class="mm-row">
+      <image src="../../../images/bgi-002.png" mode="" style="width: 95%; margin: 8px auto; border-radius: 10px;"/>
+    </view>
+    <view class="mm-row">
+      <view class="mm-article-title-small">余江区产业布局</view>
+      <view class="mm-article-content">
+        田成方、渠相通、路相连、旱能灌、涝能排、渍能降、机能进、物能运···.··藏粮于,不仅要守住耕地数量，更要提高耕地质量。实施高标准农田建设，是贯彻落实党中央国务院的决策部署，全面落实“藏粮于地、藏粮于技”战略的重大举措。我区高标准农田建设坚持高起点、高标准，实施“藏粮于地、藏粮于技”的方针，不断夯实粮食生产基础，巩固粮食主产区地位，助推乡村振兴。
+      </view>
+      <view class="mm-article-content">
+        2020年度高标准农田项目建设任务为40310亩，建成面积为40991亩，新增高效节水积5564.28亩、新增耕地面积618.978亩。项目涉及13个乡镇 (场)35个行政村。项目总投资1.2093亿元，已完成市级全面验收，省级抽查验收正在评比中。2021年度，我区高标准农田项目建设任务为40000亩，已落实了建设面积42037.91亩，涉及13个乡(镇、场)，48个行政村，制定了区高标准农田建设实施方案。
+      </view>
+      <view class="mm-article-content">
+        我区积极探索了建后管护长效机制，率先在全省出台了《余江区高标准农田建后管护“田长制”实施方案》。从制度层面构建农田管理责任机制，建立健全了区、乡、村、组四级“田长”，实现“田长制”全覆盖，落实农田管护地方事权。并与中国联通公司合作开展“农易巡”(田长制) 农田管护平台试点，加强建后管护。实现了道路通达率100%、旱涝保收率100%、机械化率95%，共打造了“田成方、渠相通、路相连涝能排、旱能灌”的高标准农田41.7万亩，目前，建成的高标准农田，已经通过省、市区三级验收，市级全面验收得分为95.5分，全市排名第一。
+      </view>
+      <view class="mm-article-content">
+        我区把稳定粮食生产作为“三农”工作头等大事来抓，坚持党政同责，全面压实各级党委、政府粮食生产责任，坚决扛稳粮食安全重任，加快推进粮食产业高质量发展确保粮食种植面积不减少、产能有提升、产量不下降。2021年全区耕地地力保护补贴面积375313.88亩，涉及农户67168户，应发放资金42035154.5元。坚持“谁种补贴给谁的原则，及时将稻谷补贴资金落实到户。落实了农业大灾保险，完成农户水稻保险的承保工作，实行了全覆盖，增加了农业巨灾保险政策，积极争取到完全成本保险政策，为农户种植保驾护航。大力推广优质稻种植，推广新品种示范区种植面积约10万亩，辐射面积23万亩。
+      </view>
+    </view>
+
+    <view class="mm-row" style="margin-block: 20px;"></view>
+  </view>
+
+
+</view>
+
+<view style="width: 100%; height: 3.5rem; display: flex; justify-content: space-between; background-color: #fff;">
+  <view style="display: flex; flex-direction: column;">
+    <image src="../../../images/tb-001.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-002.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-003.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-004.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-005.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+</view>
+
+</view>
