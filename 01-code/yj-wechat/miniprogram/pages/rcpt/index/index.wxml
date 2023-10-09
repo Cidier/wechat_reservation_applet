@@ -1,8 +1,9 @@
 
 <!--index.wxml-->
-<view class="container" style="height: 100%; background-image: url('../../../images/bgi-001.png'); background-size: 450%; background-position: 900px -2px;">
+<view class="container" style="height: 100%;background-image: url('../../../images/bgi-001.png'); background-size: 450%; background-position: 900px -2px;">
+
   <!-- background-color: rgba(255, 255, 255, 0.5); -->
-  <view class="container" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6);">
+  <view class="container" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); overflow-y: scroll;">
   <!--  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255,255,255, 0)) #09f; -->
   <view class="mm-row" style="margin: 0px auto; background: linear-gradient(rgba(0, 153, 255, 1), rgba(255,255,255, 0)) rgba(255, 255, 255, 0);">
       <view class="mm-row">
@@ -18,20 +19,40 @@
     </view>
 
     <view class="mm-row">
-      <view class="title">
-        
+      <view class="mm-card-6">
+        <image src="../../../images/tb-006.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
       </view>
-      <view class="title">
-      
+      <view class="mm-card-6">
+        <image src="../../../images/tb-007.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
       </view>
     </view>
-
     <view class="mm-row">
-      <view class="title">余江接待</view>
+      <view class="mm-card-6">
+        <image src="../../../images/tb-008.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+      </view>
+      <view class="mm-card-6">
+        <image src="../../../images/tb-009.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+      </view>
     </view>
 
   </view>
-
-
+  
+  <view style="width: 100%; height: 3.5rem; display: flex; justify-content: space-between; background-color: #fff;">
+    <view style="display: flex; flex-direction: column;">
+      <image src="../../../images/tb-001.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+    </view>
+    <view>
+      <image src="../../../images/tb-002.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+    </view>
+    <view>
+      <image src="../../../images/tb-003.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+    </view>
+    <view>
+      <image src="../../../images/tb-004.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+    </view>
+    <view>
+      <image src="../../../images/tb-005.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+    </view>
+  </view>
 
 </view>

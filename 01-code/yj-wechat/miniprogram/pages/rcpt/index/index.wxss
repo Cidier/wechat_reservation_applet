@@ -21,6 +21,19 @@
   margin: 10px 0px;
 }
 
+.mm-card-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.mm-card-6{
+  width: 120px;
+  height: 120px;
+  margin: 1px auto;
+  padding: 8px 8px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
 .top_tip {
   font-size: 28rpx;
   font-family: PingFang SC;
