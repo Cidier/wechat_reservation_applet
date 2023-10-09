@@ -13,7 +13,7 @@
       </view>
       <view class="mm-row">
         <image src="../../../images/image-0001.png" mode="ss" style="width: 70px; height: 25px; margin-left: 10px;"/>
-        <view style="color: #a0f; font-weight: 600;">余江区人民政府热烈欢迎各位嘉宾莅临指导</view>
+        <view style="color: #a0f; font-weight: 600; font-size: 12px; margin-top: 3px;">余江区人民政府热烈欢迎各位嘉宾莅临指导</view>
       </view>
     </view>
 
