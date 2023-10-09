@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/rcpt/overview/index",
     "pages/rcpt/index/index",
     "pages/index/index",
     "pages/getOpenId/index",

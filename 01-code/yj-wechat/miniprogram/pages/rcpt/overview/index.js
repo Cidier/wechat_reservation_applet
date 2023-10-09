@@ -1,6 +1,4 @@
-// pages/rcpt/index/index.js
-
-const app = getApp()
+// pages/rcpt/overview/index.js
 Page({
 
   /**
@@ -28,12 +26,8 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-    wx.setNavigationBarTitle({title:"余江接待"})
+    wx.setNavigationBarTitle({title:"余江概况"})
 
-    app.globalData.menuInfo = wx.getMenuButtonBoundingClientRect()
-    app.globalData.getSystemInfoSync = wx.getSystemInfoSync()
-
-    console.log("获取右侧胶囊位置", app.globalData.menuInfo, app.globalData.getSystemInfoSync)
   },
 
   /**

@@ -1,0 +1,35 @@
+/* pages/rcpt/overview/index.wxss */
+
+.title {
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: #943636;
+  font-size: 44rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  margin: 10px auto;
+}
+
+.title-small {
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: #943636;
+  font-size: 38rpx;
+  display: flex;
+  margin: 6px auto;
+}
+
+.content{
+  width: 100%;
+  /* view总样式 */
+  margin: 2px 1rem;
+
+  /* 文章内容样式 */
+  text-align: left;
+  font-size: 0.7rem;
+  color: #000;
+  line-height: 1.5rem;
+  font-weight: 600;
+  letter-spacing:1.5px;/*字符之间间距*/
+  text-indent: 1.2rem;
+}

@@ -1,0 +1,52 @@
+
+<!--index.wxml-->
+<view class="container" style="height: 100%;background-image: url('../../../images/bgi-001.png'); background-size: 450%; background-position: 900px -2px;">
+
+<!-- background-color: rgba(255, 255, 255, 0.5); -->
+<view class="container" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); overflow-y: scroll;">
+<!--  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255,255,255, 0)) #09f; -->
+  <view class="mm-row" style="margin: 0px auto; background: linear-gradient(rgba(255,255,255, 1), rgba(255,255,255, 0)) rgba(255, 255, 255, 0);">
+    <view class="mm-row">
+      <image src="../../../images/bgi-005.png" mode="" style="width: 95%; margin: 8px auto; border-radius: 10px;"/>
+    </view>
+    <view class="mm-row">
+      <view class="title-small">一余江概况一</view>
+      <view class="content">
+        余江区，隶属江西省鹰潭市，地处江西省东北部，信江中下游，东与月湖区、贵溪市接壤，南和金溪县相通，西界抚州市东乡区，北邻万年县、余干县。余江区总面积932.84平方米，下辖1个接到、6个镇、5个乡。[1] 2021年末，余江区户籍总人口40.24万人。
+      </view>
+    </view>
+
+    <view class="mm-row">
+      <image src="../../../images/bgi-005.png" mode="" style="width: 95%; margin: 8px auto; border-radius: 10px;"/>
+    </view>
+    <view class="mm-row">
+      <view class="content">
+        余江在秦汉时为馀汗县地，宋端拱元年(988年)正式设立安仁县，民国三年因与湖南省安仁县同名而易名余江县，1983年余江县隶属鹰潭市，2018年7月撤县设区。 余江区属亚热带湿润季风气候，其特点是四季分明，气候温和，雨水充沛，日照充足 泸昆铁路、皖赣铁路、沪昆高速铁路、320国道、206国道、沪昆高速公路、济广高速公路穿境而过。余江区历史悠久，境内留有夏商时期的青铜文化遗存，在老县城锦江镇至今仍保有千年古镇文化风貌。文风鼎盛、人才辈出。宋有犯颜直谏的工部尚书汤汉，元有江南大儒李存，明有官居六部之首的桂萼，近代历史上涌现了抗日反蒋爱国律师吴迈，杰出的爱国者和新闻事业的先驱、被授予“改革先锋”称号的邹韬奋等风云人物。
+      </view>
+    </view>
+
+    <view class="mm-row" style="margin-block: 20px;"></view>
+  </view>
+
+
+</view>
+
+<view style="width: 100%; height: 3.5rem; display: flex; justify-content: space-between; background-color: #fff;">
+  <view style="display: flex; flex-direction: column;">
+    <image src="../../../images/tb-001.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-002.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-003.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-004.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-005.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+</view>
+
+</view>
