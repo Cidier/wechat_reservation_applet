@@ -1,10 +1,37 @@
 
 <!--index.wxml-->
-<view class="container">
+<view class="container" style="height: 100%; background-image: url('../../../images/bgi-001.png'); background-size: 450%; background-position: 900px -2px;">
+  <!-- background-color: rgba(255, 255, 255, 0.5); -->
+  <view class="container" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6);">
+  <!--  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255,255,255, 0)) #09f; -->
+  <view class="mm-row" style="margin: 0px auto; background: linear-gradient(rgba(0, 153, 255, 1), rgba(255,255,255, 0)) rgba(255, 255, 255, 0);">
+      <view class="mm-row">
+        <image src="../../../images/logo-zf.png" mode="" style="width: 160px; height: 40px; margin-left: 8px;"/>
+      </view>
+      <view class="mm-row">
+        <image src="../../../images/bgi-005.png" mode="" style="width: 95%; margin: 8px auto; border-radius: 10px;"/>
+      </view>
+      <view class="mm-row">
+        <image src="../../../images/image-0001.png" mode="ss" style="width: 70px; height: 25px; margin-left: 10px;"/>
+        <view style="color: #a0f; font-weight: 600;">余江区人民政府热烈欢迎各位嘉宾莅临指导</view>
+      </view>
+    </view>
 
-  <view class="mm-title-row">
-    <!-- <view class="title">余江接待</view> -->
+    <view class="mm-row">
+      <view class="title">
+        
+      </view>
+      <view class="title">
+      
+      </view>
+    </view>
+
+    <view class="mm-row">
+      <view class="title">余江接待</view>
+    </view>
+
   </view>
+
 
 
 </view>
