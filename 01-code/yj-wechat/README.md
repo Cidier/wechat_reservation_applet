@@ -10,3 +10,6 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 - https://wux-weapp.github.io/wux-weapp-docs/#/
+
+
+- 图片需进行压缩处理，可使用：https://freecompress.com/zh-cn/compress-image 进行免费压缩。
