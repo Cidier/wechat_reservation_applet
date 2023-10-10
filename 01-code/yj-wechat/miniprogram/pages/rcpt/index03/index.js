@@ -9,7 +9,12 @@ Page({
   data: {
 
   },
-
+ //跳转页面
+ gotoScheduleArrange: function(){
+  wx.navigateTo({
+    url: '../index03_01/index',
+  })
+},
   /**
    * 生命周期函数--监听页面加载
    */

@@ -19,7 +19,7 @@
     </view>
 
     <view class="mm-row">
-      <view class="mm-card-6">
+      <view class="mm-card-6" bindtap="gotoScheduleArrange">
         <image src="../../../images/tb-006.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
       </view>
       <view class="mm-card-6">
