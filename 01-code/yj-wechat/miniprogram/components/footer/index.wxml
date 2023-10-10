@@ -1,0 +1,18 @@
+
+<view style="width: 100%; height: 3.5rem; display: flex; justify-content: space-between; background-color: #fff;">
+  <view style="display: flex; flex-direction: column;">
+    <image src="/images/tb-001.png" style="width: 50px; height: 40px; margin: 0px 3px;" bindtap="onTabber" data-route="index01"></image>
+  </view>
+  <view>
+    <image src="/images/tb-002.png" style="width: 50px; height: 40px; margin: 0px 3px;" bindtap="onTabber" data-route="index02"></image>
+  </view>
+  <view>
+    <image src="/images/tb-003.png" style="width: 50px; height: 40px; margin: 0px 3px;" bindtap="onTabber" data-route="index03"></image>
+  </view>
+  <view>
+    <image src="/images/tb-004.png" style="width: 50px; height: 40px; margin: 0px 3px;" bindtap="onTabber" data-route="index04"></image>
+  </view>
+  <view>
+    <image src="/images/tb-005.png" style="width: 50px; height: 40px; margin: 0px 3px;" bindtap="onTabber" data-route="index05"></image>
+  </view>
+</view>

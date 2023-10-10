@@ -63,5 +63,20 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  onFooterTabber(e){
+    console.log("父组件", e)
+    let route = e.detail.route
+    // let url = `/pages/rcpt/`+route+`/index`
+    // wx.reLaunch({
+    //   url: url,
+    //   success(e){
+    //     console.log("成功", e)
+    //   },fail(e){
+    //     console.log("失败", e)
+    //   }
+    // })
   }
+
 })
