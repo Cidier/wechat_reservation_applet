@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "cloud-tip-modal": "/components/cloudTipModal/index",
+    "mm-footer": "/components/footer/index",
+    "wux-row": "/lib/row/index",
+    "wux-col": "/lib/col/index"
+  }
+}
+
+

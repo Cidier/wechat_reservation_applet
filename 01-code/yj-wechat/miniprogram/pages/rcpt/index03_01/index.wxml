@@ -1,0 +1,50 @@
+<!--pages/rcpt/index03_01/index.wxml-->
+<view class="container mm-container-image " >
+
+<!-- background-color: rgba(255, 255, 255, 0.5); -->
+<view class="container page" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); overflow-y: scroll;">
+  <view class="page__hd">
+    <view class="page__title">行程一</view>
+    <!-- //<view class="page__desc">栅格布局</view> -->
+  </view>
+  <view class="page__bd" style="width:80%;">
+    <wux-row>
+      <wux-col span="12">
+        <view class="placeholder" >2023-10-10</view>
+      </wux-col>
+    </wux-row>
+    <wux-row>
+      <wux-col span="6">
+        <view class="placeholder">时间</view>
+      </wux-col>
+      <wux-col span="6">
+        <view class="placeholder">行程安排</view>
+      </wux-col>
+    </wux-row>
+    <wux-row>
+      <wux-col span="6">
+        <view class="placeholder"style="font-size: 10px;">8：00—10：00</view>
+      </wux-col>
+      <wux-col span="6">
+        <view class="placeholder">会议进行</view>
+      </wux-col>
+    </wux-row>    
+    <wux-row>
+      <wux-col span="6">
+        <view class="placeholder" style="font-size: 10px;">14：00——18：00</view>
+      </wux-col>
+      <wux-col span="6">
+        <view class="placeholder">现场考察</view>
+      </wux-col>
+    </wux-row>
+
+
+  </view>
+</view>
+  
+<mm-footer style="width: 100%;"></mm-footer>
+
+</view>
+
+
+
