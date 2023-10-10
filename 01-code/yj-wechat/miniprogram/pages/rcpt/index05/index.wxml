@@ -1,2 +1,61 @@
-<!--pages/rcpt/index05/index.wxml-->
-<text>pages/rcpt/index05/index.wxml</text>
+
+<!--index.wxml-->
+<view class="container mm-container-image" >
+
+<!-- background-color: rgba(255, 255, 255, 0.5); -->
+<view class="container" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); overflow-y: scroll;">
+<!--  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255,255,255, 0)) #09f; -->
+
+  <view class="mm-row" style="margin-top: 1rem;">
+    <view class="mm-card-16">
+      <image src="../../../images/bgi-002.png" style="width: 99%; height: 80%; margin: 0px auto; border-radius: 5px;"></image>
+      <view class="mm-media-heading">产业支持政策</view>
+      <view class="mm-media-heading-small">2023-06-21 11:22:33</view>
+    </view>
+  </view>
+
+  <view class="mm-row" style="margin-top: 1rem;">
+    <view class="mm-card-16">
+      <image src="../../../images/bgi-004.png" style="width: 99%; height: 80%; margin: 0px auto; border-radius: 5px;"></image>
+      <view class="mm-media-heading">人才支持政策</view>
+      <view class="mm-media-heading-small">2023-06-21 11:22:33</view>
+    </view>
+  </view>
+  
+  <view class="mm-row" style="margin-top: 1rem;">
+    <view class="mm-card-16">
+      <image src="../../../images/bgi-003.png" style="width: 99%; height: 80%; margin: 0px auto; border-radius: 5px;"></image>
+      <view class="mm-media-heading">科技支持政策</view>
+      <view class="mm-media-heading-small">2023-06-21 11:22:33</view>
+    </view>
+  </view>
+  
+  <view class="mm-row" style="margin-top: 1rem;">
+    <view class="mm-card-16">
+      <image src="../../../images/bgi-001.png" style="width: 99%; height: 80%; margin: 0px auto; border-radius: 5px;"></image>
+      <view class="mm-media-heading">金融支持政策</view>
+      <view class="mm-media-heading-small">2023-06-21 11:22:33</view>
+    </view>
+  </view>
+
+</view>
+
+<view style="width: 100%; height: 3.5rem; display: flex; justify-content: space-between; background-color: #fff;">
+  <view style="display: flex; flex-direction: column;">
+    <image src="../../../images/tb-001.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-002.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-003.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-004.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+  <view>
+    <image src="../../../images/tb-005.png" style="width: 50px; height: 40px; margin: 0px 3px;"></image>
+  </view>
+</view>
+
+</view>

@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/rcpt/index03/index",
-    "pages/rcpt/index01/index",
+    "pages/rcpt/index05/index",
     "pages/rcpt/index02/index",
     "pages/rcpt/index04/index",
-    "pages/rcpt/index05/index",
+    "pages/rcpt/index03/index",
+    "pages/rcpt/index01/index",
     "pages/index/index",
     "pages/getOpenId/index",
     "pages/getMiniProgramCode/index",
