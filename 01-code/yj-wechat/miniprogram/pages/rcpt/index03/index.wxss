@@ -1,6 +1,14 @@
 /* pages/rcpt/index/index.wxss */
 /**index.wxss**/
 
+.card-title{
+  font-size: 1.2rem; 
+  width: 100%; 
+  text-align: center; 
+  letter-spacing: 3px; 
+  color: #1c6bb5; 
+  font-weight: 600;
+}
 
 .title {
   font-family: PingFang SC;

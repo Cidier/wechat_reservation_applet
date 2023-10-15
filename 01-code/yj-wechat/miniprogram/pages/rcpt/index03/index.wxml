@@ -5,7 +5,7 @@
   <!-- background-color: rgba(255, 255, 255, 0.5); -->
   <view class="container" style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); overflow-y: scroll;">
   <!--  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255,255,255, 0)) #09f; -->
-  <view class="mm-row" style="margin: 0px auto; background: linear-gradient(rgba(0, 153, 255, 1), rgba(255,255,255, 0)) rgba(255, 255, 255, 0);">
+  <view class="mm-row" style="margin: 0px auto; background: linear-gradient(rgba(39,151,255, 1), rgba(255,255,255, 0)) rgba(255, 255, 255, 0);">
       <view class="mm-row">
         <image src="../../../images/logo-zf.png" mode="" style="width: 160px; height: 40px; margin-left: 8px;"/>
       </view>
@@ -20,18 +20,30 @@
 
     <view class="mm-row">
       <view class="mm-card-6" bindtap="gotoScheduleArrange">
-        <image src="../../../images/tb-006.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+        <view style="height: 65%; width: 70px; margin: 5px auto;">
+          <image src="../../../images/tb-006.png" style="width: 70px; height: 70px; margin: 0px auto;"></image>
+        </view>
+        <view class="card-title">行程安排</view>
       </view>
       <view class="mm-card-6">
-        <image src="../../../images/tb-007.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+        <view style="height: 65%; width: 70px; margin: 5px auto;">
+          <image src="../../../images/tb-007.png" style="width: 70px; height: 70px; margin: 0px auto;"></image>
+        </view>
+        <view class="card-title">来宾人员</view>
       </view>
     </view>
     <view class="mm-row">
       <view class="mm-card-6">
-        <image src="../../../images/tb-008.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+        <view style="height: 65%; width: 70px; margin: 5px auto;">
+          <image src="../../../images/tb-008.png" style="width: 70px; height: 70px; margin: 0px auto;"></image>
+        </view>
+        <view class="card-title">陪同人员</view>
       </view>
       <view class="mm-card-6">
-        <image src="../../../images/tb-009.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+        <view style="height: 65%; width: 70px; margin: 5px auto;">
+          <image src="../../../images/tb-009.png" style="width: 70px; height: 70px; margin: 0px auto;"></image>
+        </view>
+        <view class="card-title">考察点介绍</view>
       </view>
     </view>
 
