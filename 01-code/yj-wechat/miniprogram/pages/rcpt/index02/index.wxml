@@ -8,24 +8,24 @@
 
   <view class="mm-row" style="margin-top: 8rem;">
     <view class="mm-card-10">
-      <image src="../../../images/tb-009.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+      <image src="../../../images/tb-009.png" style="width: 180px; height: 180px; margin: 0px auto;"></image>
     </view>
     <view class="mm-card-none">
       <view class="mm-card-4">
-        <image src="../../../images/tb-010.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+        <image src="../../../images/tb-010.png" style="width: 75px; height: 75px; margin: 0px auto;"></image>
       </view>
       <view class="mm-card-4" style="margin-top: 15px;">
-        <image src="../../../images/tb-011.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+        <image src="../../../images/tb-011.png" style="width: 75px; height: 75px; margin: 0px auto;"></image>
       </view>
     </view>
   </view>
 
   <view class="mm-row">
     <view class="mm-card-6">
-      <image src="../../../images/tb-012.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+      <image src="../../../images/tb-012.png" style="width: 120px; height: 120px; margin: 0px auto;"></image>
     </view>
     <view class="mm-card-6">
-      <image src="../../../images/tb-013.png" style="width: 98%; height: 98%; margin: 0px auto;"></image>
+      <image src="../../../images/tb-013.png" style="width: 120px; height: 120px; margin: 0px auto;"></image>
     </view>
   </view>
 
