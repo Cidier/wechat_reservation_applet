@@ -1,0 +1,43 @@
+@Security(code = "mm-sys-user-page")
+@OpenApi(code = true)
+
+
+@Security 注解 是权限判断注解，判断当前登录用户是否有权限访问该方法。
+@OpenApi 注解 是设置是否开放访问，默认 false，即：必须登录访问，如果设置为 true 则不需要登录也可以访问。
+
+
+注解解释说明：
+    注意：当两个注解同时作用在一个controller方法上标记时，此时@OpenApi无效。
+        （也就是说，无论设置OpenApi为true或false，都会通过Security进行权限校验）
+    注意：当两个标记都在，并且 @OpenApi 为 true，通过 LoginInfoUtil.getCurrent() 获取当前登录对象为空。
+        （原因是实现LoginInfoUtil.getCurrent()原理是在用户验证拦截器中会优先判断 @OpenApi 是否为 true 一但判断为true 将不走 setCurrent 方法）
+
+
+
+
+
+===============DockerFile命令
+
+//打包DockerFile
+docker build --tag reservation-server:0.0.1 .
+
+其中：
+    --tag reservation-server:v0.0.1   表示：打包镜像名称和版本号
+    .   表示当前文件夹执行dockerfile
+
+//将image导出
+docker save -o reservation-server-0.0.1.tar reservation-server:0.0.1
+
+docker save -o alibabadragonwell.tar alibabadragonwell/dragonwell:17-anolis
+ 修改tar的权限
+chmod 755 reservation-server-0.0.1.tar
+
+
+//将image 导入
+docker load -i reservation-server-0.0.1.tar
+
+docker load -i alibabadragonwell-17.tar
+
+
+//运行镜像
+docker run -d -p 7676:7676 --name reservation-server reservation-server:0.0.1
