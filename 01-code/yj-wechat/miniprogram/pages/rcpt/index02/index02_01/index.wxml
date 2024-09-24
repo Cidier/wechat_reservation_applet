@@ -1,0 +1,47 @@
+<view class="container">
+
+  <view class="mm-t-list" >
+    <view class="mm-t-list-item" wx:for="{{hotelIndex02}}" wx:key="_id" bindtap="onClickInfo" data-id="{{item.id}}">
+      <view>
+        <image src="{{item.coverImg}}" mode=""/>
+        
+      </view>
+      <view>
+        <view>
+          {{item.title}}
+        </view>
+        <view>
+          {{item.type}}
+        </view>
+      </view>
+    </view>
+    <!-- <view class="mm-t-list-item" bindtap="onClickInfo">
+      <view>
+        <image src="/images/bgi-001.png"/>
+      </view>
+      <view>
+        <view>
+          江西前湖迎宾馆
+        </view>
+        <view>
+          江西省南昌市红谷滩区红角洲学府大道888号（南昌大学前湖校区正对面）
+        </view>
+      </view>
+    </view>
+    
+    <view class="mm-t-list-item" bindtap="onClickInfo">
+      <view>
+        <image src="/images/bgi-001.png"/>
+      </view>
+      <view>
+        <view>
+          江西前湖迎宾馆
+        </view>
+        <view>
+          江西省南昌市红谷滩区红角洲学府大道888号（南昌大学前湖校区正对面）
+        </view>
+      </view>
+    </view> -->
+  </view>
+
+</view>

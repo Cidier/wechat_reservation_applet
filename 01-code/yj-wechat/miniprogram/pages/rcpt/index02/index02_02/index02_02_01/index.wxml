@@ -1,0 +1,5 @@
+<view>
+  <!-- <rich-text nodes="{{contentA}}"></rich-text> -->
+  <towxml nodes="{{content}}"/>
+  
+</view>

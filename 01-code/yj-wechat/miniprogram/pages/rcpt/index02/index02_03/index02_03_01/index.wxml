@@ -1,0 +1,51 @@
+<view>
+  <!-- <rich-text nodes="{{contentA}}"></rich-text> -->
+  <towxml nodes="{{content}}"/>
+</view>
+<!-- <view class="container">
+  <view class="mm-row" style="margin: 0px;">
+    <image src="/images/bgi-007.png" mode="" style="width: 100%;"/>
+  </view>
+  
+  <view class="mm-row" style=" background-color: #fff;">
+    <view class="mm-row" style="justify-content: space-between; margin: 0px 10px;">
+      <view style="padding-top: 5px;">
+       {{id}} 金怡国际大酒店
+      </view>
+      <view bind:tap="onMap" style="width: 100px; height: 35px; background-color: #2797ff; color: #fff; border-radius: 4px;"> 
+        <view style="width: 90px; display: flex; margin: 5px auto;">
+          <image src="/images/s-map-but.svg" mode="" style="width: 20px; height: 20px;" /> 
+          <view>地图导航</view>
+        </view>
+      </view>
+    </view>
+    <view class="mm-row" style="margin: 5px 10px;">
+      <view class="map-before">江西省鹰潭市余江区邓埠镇鹰南大道66号</view>
+    </view>
+  </view>
+
+  <view class="mm-row" style=" background-color: #fff;">
+    <view class="mm-span">
+      酒店开业时间2011年07月01日，主楼高28层，客房总数322间（套）。酒店位于江西省鹰潭市余江鹰南大道，距离余江县政府约500米，鹰潭市中心约10公里，龙虎山风景区约15公里。
+    </view>
+    <view class="mm-span">
+      这是由香港金怡房地产集团投资打造的一家按国际化星级标准建造的精品商务酒店，建筑总面积为60270.67㎡，楼高为17层，整体建设理念以全景设计出发，近能观城市公园、人工水体，远能眺望马鞍岭公园风景和山脉，交通便捷，环境优雅。
+    </view>
+    <view class="mm-span">
+      酒店配有设施：大型商场、电影院、美食城、健身房、泳池、理疗中心、高尔夫练球场、KTV、中西餐厅、会议中心（5个小会议厅、大宴会厅可容纳1000人）、高档别墅住宅小区等相关配套设施，完善的与会设施是您举办社交盛会、商务聚会、私人定制宴会及婚礼的不二之选。
+    </view>
+    <view class="mm-span">
+      地址:江西省鹰潭市余江区邓埠镇鹰南大道66号
+      酒店咨询热线：0701-2199999
+
+    </view>
+    <view class="mm-span">
+      宾馆总占地2385亩，总建筑面积为16万平方沿湖而建。宾馆位置交通便利，距离市中心约16公里，距离昌北机场32公里、距离火车站约为15公里。宾馆内部设施，住宿、餐饮、会议中心、娱乐。
+    </view>
+    <view class="mm-span">
+      宾馆总占地2385亩，总建筑面积为16万平方沿湖而建。宾馆位置交通便利，距离市中心约16公里，距离昌北机场32公里、距离火车站约为15公里。宾馆内部设施，住宿、餐饮、会议中心、娱乐。
+    </view>
+
+  </view>
+
+</view> -->
