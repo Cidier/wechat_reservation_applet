@@ -1,0 +1,25 @@
+<!--pages/rcpt/index03/index03_02/index.wxml-->
+<view class=" mm-container-image " >
+
+<!-- background-color: rgba(255, 255, 255, 0.5); -->
+<view style="width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); overflow-y: scroll;">
+
+  <view style="display: flex;justify-content: center;margin: 15rpx;font-size:50rpx;color:black;">来宾人员
+  </view>
+  <towxml style="background: rgba(255, 255, 255, 0.6);" nodes="{{content}}"/>
+
+
+
+
+
+
+
+</view>
+
+</view>
+  
+<mm-footer style="width: 100%;"></mm-footer>
+
+
+
+

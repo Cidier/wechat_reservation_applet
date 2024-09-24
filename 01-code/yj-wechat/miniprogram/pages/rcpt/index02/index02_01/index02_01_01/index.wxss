@@ -1,0 +1,19 @@
+/* pages/rcpt/index02/index02_01/index02_01_01/index.wxss */
+
+.map-before{
+  text-indent: 1rem;
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.map-before::before{
+  /*必须添加content属性，否则后期不可见*/
+  content:"";
+  /*默认是行级元素，如果想设置宽高，必须转换为块级元素  : position定位*/
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAsxJREFUWEfFlk9sTFEUxr+vxJqVRCIhaeY9xAINCxW6wEaJBRb+VJPSuVMRElYWWFiR0ETnTWmiRBNhgdZGSNpILRC6Qd+bNCEWIrHQhZXofDLSSTrTue++mVa87fnz/e455577iP/8sVb9NX1q/P0L60isl9AMohnCKIlRCe8WLsLYhw5OJM2bGMDPagOIcwL2upITeAjhUpjh2wS+LhcglVMvheNuz3IPETfyaXbGxTkr4AVSrcKV/pGhVScWIJVVB4mbcwWQcCyfYV+1PFYAP9AKAZ/mKl6KJ7AyNPxcmc8KkAp0i8DR+QIQ0J83bE8EkOqVzwLGE4gPqIAJNqARwEGXvxqwKt/JcKZf1QqkcjpC4bZjeltCw5GSjx9om4DhuBgRbfk07zgB/Kyui+iyJhP8KMOo0u5l5YEoO2GZmNATZnjCCeAFegVgY1UA4kGU5n4bnJfTfQj7LPbXkeGmJADWu68CLua7eMEGkOrRBTbgvM1euROqzoAXqFhGz5JkIDI8ZK1AoLsxAxlFhn6SCjwGsNvSgskozSUxLfgBYbHFPhgZ7nED5HQVwimbiK0NrvKDuBaledoJ4AfaJWDIca+/gnipKXzkAqyGsBnAMsfVbQ0NnzgBig5eToMQWl3LJbGdGIrSnNXWuLcgSRVq0Mes0xeDY19DL6vLIM4kVrE5EleiNM9WM7v/B3J6CmFHvRAEnoeG2+1sjsx+r9YWCnhGYGkdEN+ngJ0ThmN1AxQDU4EOEyh7RJLAEGgPDfsdNyNJKqCOeeiODK27pKTqnIGZeF7yeRiJDFuSHK0mgOl2fIudB2Gygdgybvj+nwB4OTVBeBOzptvyXeU/HfMyA2WtCHQSQPesxFV2vasKNbeglNDL6h6IAzOG6UVouNUlWGmvG+DvexHoC4DlAH5CaKr2m+YCmhPANMSwhO58ho9cYnWt4nqS1hLzBypM9SEv7BSEAAAAAElFTkSuQmCC");
+  left: 8px;
+}
