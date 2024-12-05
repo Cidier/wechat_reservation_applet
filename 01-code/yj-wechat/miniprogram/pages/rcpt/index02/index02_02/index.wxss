@@ -1,0 +1,8 @@
+/* pages/rcpt/index02/index02_02/index.wxss */
+
+
+.mm-col-12{
+  width: 50%;
+  margin: 0.1rem 0;
+  margin-top: 5px;
+}

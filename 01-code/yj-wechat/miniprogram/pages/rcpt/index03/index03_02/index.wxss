@@ -1,0 +1,41 @@
+/* pages/rcpt/index03/index03_02/index.wxss */
+
+.tableLaibin0{
+  border: 1rpx solid #dae3f3;
+  width: 80%;
+  display: flex;
+  background-color: #f3f3f3;
+  /* height: 80rpx; */
+  justify-content: center;
+  align-items: center;
+}
+
+.tableLaibin1{
+  border: transparent;
+  width: 40%;
+  display: flex;
+  background-color: #f3f3f3;
+  /* height: 80rpx; */
+  justify-content: center;
+  align-items: center;
+}
+
+.tableLaibin2{
+  border: 1rpx solid #dae3f3;
+  width: 60%;
+  display: flex;
+  background-color: #f3f3f3;
+  /* height: 80rpx; */
+  justify-content: center;
+  align-items: center;
+}
+.tableLaibin3{
+  border: 1rpx solid #dae3f3;
+  width: 80%;
+  display: flex;
+  background-color: #698ed0;
+  /* font-size:50rpx; */
+  /* height: 80rpx; */
+  /* //justify-content: center; */
+  align-items: center;
+}

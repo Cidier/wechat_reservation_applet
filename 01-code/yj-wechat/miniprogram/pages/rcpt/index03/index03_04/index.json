@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mm-footer": "/components/footer/index",
+    "towxml":"/towxml/towxml"
+
+  }
+}

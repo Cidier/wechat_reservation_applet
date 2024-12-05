@@ -1,0 +1,20 @@
+<view class="container">
+
+<view class="mm-t-list" >
+  <view class="mm-t-list-item" wx:for="{{sceneryIndex02}}" wx:key="_id" bindtap="onClickInfo" data-id="{{item.id}}">
+    <view>
+      <image src="{{item.coverImg}}" mode=""/>
+    </view>
+    <view>
+      <view>
+        {{item.title}}
+      </view>
+      <view>
+        {{item.type}}
+      </view>
+    </view>
+  </view>
+
+</view>
+
+</view>
